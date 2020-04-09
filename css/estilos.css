@@ -35,26 +35,78 @@ body {
   height: 100vh;
 }
 header {
-    width: 100%;
-    height: 162px;
-    background-color: #E2363E;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 162px;
+  background-color: #e2363e;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  width: 350px;
+  text-align: right;
+}
+.logo-img {
+  width: 220px;
+}
+.header-txt {
+  font-size: 32px;
 }
 .usuario-info {
-    width: 342px;
-    height: 100%;
-    background-color: #411A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 342px;
+  height: 100%;
+  background-color: #411a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .usuario-avatar {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.usuario-info-txt {
+  margin-left: 10px;
+  text-align: center;
+}
+.usuario-nome {
+  font-size: 32px;
+}
+
+.usuario-plano {
+  font-size: 24px;
+}
+
+.icon-bar {
+  width: 100%;
+  height: 86px;
+  background-color: #7dc1c0;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  width: 100%;
+  height: 69px;
+  background-color: #cbe7e6;
+  color: #7dc1c0;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #558a89
 }
