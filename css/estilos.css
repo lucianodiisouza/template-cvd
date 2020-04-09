@@ -21,6 +21,66 @@
   font-weight: normal;
   font-style: normal;
 }
+/* Hiddens para o mobile */
+.responsivo-btn,
+.nav-responsivo {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+  }
+  .logo-container {
+    width: 80% !important;
+    text-align: center !important;
+  }
+  .header-txt {
+    display: none;
+  }
+  .usuario-info {
+    display: none !important;
+  }
+  nav {
+    display: none !important;
+  }
+  .nav-responsivo {
+    width: 90%;
+    padding: 20px;
+    font-size: 1.4em;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 15px auto;
+    transition: 0.3s;
+  }
+  .nav-responsivo > ul > li {
+    list-style: none;
+  }
+  .responsivo-btn {
+    width: 32px;
+    display: block;
+    margin-left: 15px;
+  }
+  aside {
+    display: none !important;
+  }
+  .container {
+    height: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  footer {
+    height: 100% !important;
+    flex-direction: column !important;
+  }
+  .contato-info-footer {
+    flex-direction: column !important;
+  }
+  .contato-info-div {
+    text-align: center;
+  }
+}
 
 * {
   margin: 0px;
@@ -90,9 +150,9 @@ header {
 
 nav {
   width: 100%;
-  height: 69px;  
+  height: 69px;
   background-color: #7dc1c0;
-  color: #2E8986;
+  color: #2e8986;
   font-size: 24px;
   font-weight: bold;
   display: flex;
@@ -114,12 +174,12 @@ nav ul li:hover {
   color: #558a89;
   opacity: 0.7;
   transition: linear 0.4s;
-  border-bottom: 3px solid #2E8986;
+  border-bottom: 3px solid #2e8986;
 }
 
-.menu-icon { 
-    width: 32px;
-    margin-right: 15px;
+.menu-icon {
+  width: 32px;
+  margin-right: 15px;
 }
 .container {
   width: 100%;
@@ -169,75 +229,73 @@ aside .ativo {
   padding: 20px;
 }
 .row {
-    width: 100%;
-    margin-bottom: 75px;
-    color: #2e8986;
+  width: 100%;
+  margin-bottom: 75px;
+  color: #2e8986;
 }
-.progresso-container{ 
-    float: right;
-    padding-bottom: 40px;
-
+.progresso-container {
+  float: right;
+  padding-bottom: 40px;
 }
 .progress-bar {
-    width: 250px;
-    height: 20px;
-    border-radius: 20px;
-    background-color: #2e8986;
-    margin-top: 5px;
+  width: 250px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #2e8986;
+  margin-top: 5px;
 }
 .conteudo h3 {
-    font-size: 48px;
-    color: #2e8986;
+  font-size: 48px;
+  color: #2e8986;
 }
 
-.textarea-perfil{
-    margin-top: 25px;
+.textarea-perfil {
+  margin-top: 25px;
 }
 
-footer { 
-    width: 100%;
-    height: 100px;
-    background-color: #7dc1c0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #7dc1c0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .footer-logo-container {
-    color: white;
-    flex-direction: column;
+  color: white;
+  flex-direction: column;
 }
 
 .footer-logo {
-    width: 230px;    
+  width: 230px;
 }
-.inside{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.inside {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer-icon {
-    width: 32px;
-    padding: 5px;
+  width: 32px;
+  padding: 5px;
 }
 .contato-info-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
 }
 
 .contato-info-footer {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 .colors {
-    width: 100%;
-    height: 10px;
-    background-image: url('../img/color-bar.png');
-
+  width: 100%;
+  height: 10px;
+  background-image: url("../img/color-bar.png");
 }
