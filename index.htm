@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>tinymce.init({selector:'textarea'});</script>
 </head>
 
 <body>
@@ -44,27 +46,52 @@
                 <li>Configurações</li>
             </ul>
         </nav>
-        <aside>
-            <div>
-                Ver minha vitrine
+        <div class="container">
+            <aside>
+                <button class="aside-btn">
+                    Ver minha vitrine
+                </button>
+                <ul>
+                    <li class="ativo">Descrição da Empresa</li>
+                    <li>Suas Festas</li>
+                    <li>Cupons</li>
+                    <li>Redes Sociais</li>
+                </ul>
+            </aside>
+            <div class="conteudo">
+                <h3>Inserir e editar descrição da sua empresa</h3>
+                <p>É essencial que a descrição esteja atualizada e seja verdadeira</p>
+                <br>
+                <h3>Faça a descrição da sua empresa (na terceira pessoa)</h3>
+                <p>Escreva detalhadamente todos os serviços e produtos que a sua empresa oferece com o máximo de
+                    informação
+                    de interesse para quem for fazer a festa com você. Não é permitido incluir dados de contato como
+                    e-mail,
+                    telefone, site, endereço...</p>
+                <textarea name="editor" class="textarea-perfil" cols="30" rows="10"></textarea>
             </div>
-            <ul>
-                <li>Descrição da Empresa</li>
-                <li>Suas Festas</li>
-                <li>Cupons</li>
-                <li>Redes Sociais</li>
-            </ul>
-        </aside>
-        <div class="content">
-            <h3>Inserir e editar descrição da sua empresa</h3>
-            <p>É essencial que a descrição esteja atualizada e seja verdadeira</p>
-            <br>
-            <h3>Faça a descrição da sua empresa (na terceira pessoa)</h3>
-            <p>Escreva detalhadamente todos os serviços e produtos que a sua empresa oferece com o máximo de informação
-                de interesse para quem for fazer a festa com você. Não é permitido incluir dados de contato como e-mail,
-                telefone, site, endereço...</p>
-
         </div>
+    </div>
+    <footer>
+        <div class="footer-logo-container">
+            <img src="img/logo.png" alt="Convida!" class="footer-logo">
+            <p>pesquise . reserve . convide</p>
+        </div>
+        <div class="contato-info-footer">
+            <div class="contato-info-div"><img src="img/ligar.png" class="footer-icon"> FALE@CONVIDA.COM.BR</div>
+            <div class="contato-info-div"><img src="img/ligar.png" class="footer-icon"> (21) 2528-1210 / (21) 2823-2323 / (21) 99179-4977 </div>
+            <div class="contato-info-div"><img src="img/ligar.png" class="footer-icon"> (21) 991790-4977</div>
+            <div class="contato-info-div">
+                <img src="img/ligar.png" class="footer-icon">
+                <img src="img/ligar.png" class="footer-icon">
+                <img src="img/ligar.png" class="footer-icon">
+                <img src="img/ligar.png" class="footer-icon">
+                <img src="img/ligar.png" class="footer-icon">
+            </div>
+        </div>
+    </footer>
+    <div class="colors">
+        
     </div>
 </body>
 
