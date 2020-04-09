@@ -83,37 +83,47 @@ header {
 .icon-bar {
   width: 100%;
   height: 86px;
-  background-color: #7dc1c0;
+
   display: flex;
   flex-direction: row;
 }
 
 nav {
   width: 100%;
-  height: 69px;
-  background-color: #cbe7e6;
-  color: #7dc1c0;
+  height: 69px;  
+  background-color: #7dc1c0;
+  color: #2E8986;
   font-size: 28px;
   font-weight: bold;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 nav ul li {
-  display: block;
+  display: flex;
   float: left;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
+  margin: 0 audo;
+  height: 60px;
 }
 
 nav ul li:hover {
   color: #558a89;
+  opacity: 0.7;
+  transition: linear 0.4s;
+  border-bottom: 3px solid #2E8986;
 }
 
+.menu-icon { 
+    width: 32px;
+    margin-right: 15px;
+}
 .container {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   color: #7dc1c0;
   display: flex;
   flex-direction: row;
