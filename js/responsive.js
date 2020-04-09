@@ -1,13 +1,18 @@
-const menuResponsive = document.querySelector('.nav-responsivo');
-const btnResponsive = document.querySelector('.responsivo-btn').addEventListener('click', showResponsiveMenu);
+const menuResponsive = document.querySelector(".nav-responsivo");
+const btnResponsive = document
+  .querySelector(".responsivo-btn")
+  .addEventListener("click", showResponsiveMenu);
 
-let displayResponsive;
+let displayResponsive = false;
 
-function showResponsiveMenu(){ 
-    displayResponsive = !displayResponsive;
-    console.log(displayResponsive)
+function showResponsiveMenu() {
+  displayResponsive = !displayResponsive;
+  if (displayResponsive) {
+    menuResponsive.style.display = 'flex';
+  }
+
+  if (!displayResponsive) {
+    menuResponsive.style.display = 'none';
+    console.log("esconde fdp")
+  }
 }
-
-const toggleMenu = displayResponsive ? 'flex' : 'hidden';
-
-menuResponsive.style.display = toggleMenu;

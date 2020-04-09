@@ -53,10 +53,22 @@
     background-color: antiquewhite;
     border-radius: 20px;
     margin: 15px auto;
-    transition: 0.3s;
+    transition: 0.5s;
+    flex-direction: column;
+  }
+  .h-rule {
+      margin: 10px;
+      background-color: grey;;
   }
   .nav-responsivo > ul > li {
     list-style: none;
+  }
+  .usuario-info-responsive {
+      margin-top: 15px;
+      text-align: center;
+  }
+  .header-txt-responsive {
+      text-align: center;
   }
   .responsivo-btn {
     width: 32px;
