@@ -27,7 +27,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   header {
     display: flex;
     flex-direction: row;
@@ -57,18 +57,18 @@
     flex-direction: column;
   }
   .h-rule {
-      margin: 10px;
-      background-color: grey;;
+    margin: 10px;
+    background-color: grey;
   }
   .nav-responsivo > ul > li {
     list-style: none;
   }
   .usuario-info-responsive {
-      margin-top: 15px;
-      text-align: center;
+    margin-top: 15px;
+    text-align: center;
   }
   .header-txt-responsive {
-      text-align: center;
+    text-align: center;
   }
   .responsivo-btn {
     width: 32px;
@@ -83,7 +83,7 @@
     margin-bottom: 20px !important;
   }
   footer {
-    height: 100% !important;
+    height: 50% !important;
     flex-direction: column !important;
   }
   .contato-info-footer {
@@ -91,6 +91,9 @@
   }
   .contato-info-div {
     text-align: center;
+  }
+  .contato-info-div:last-child {
+    justify-content: center;
   }
 }
 
