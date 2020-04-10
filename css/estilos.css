@@ -532,3 +532,37 @@ ul li {
   margin: 16px 0;
   position: relative;
 }
+
+/* Suas Festas */
+.conteudo-main{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 0;
+  padding: 0;
+}
+.row-textarea {
+  margin: 20px 0;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.nome-festa, .local-festa{
+  width: 98%;
+  height: 30px;
+}
+
+.data-inicio, .data-fim {
+  width: 49%;
+  height: 30px;
+}
