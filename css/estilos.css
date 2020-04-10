@@ -109,6 +109,9 @@ body {
   width: 100%;
   height: 100vh;
 }
+.main {
+  
+}
 header {
   width: 100%;
   height: 100px;
@@ -198,7 +201,7 @@ nav ul li:hover {
 }
 .container {
   width: 100%;
-  height: 70vh;
+  height: 100%;
   color: #7dc1c0;
   display: flex;
   flex-direction: row;
@@ -240,8 +243,10 @@ aside .ativo {
 
 .conteudo {
   width: 73%;
+  height: 100%;
   float: right;
   padding: 20px;
+  border: 1px solid red;
 }
 .row {
   width: 100%;
@@ -276,6 +281,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  z-index: 9999;
 }
 
 .footer-logo-container {
