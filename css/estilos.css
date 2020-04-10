@@ -548,10 +548,17 @@ ul li {
   margin: 25px 0;
   padding: 0;
 }
+.row-master {
+  display: flex;
+  justify-content: space-between;
+}
 .row-textarea {
   margin: 20px 0;
 }
-
+.row-checkbox {
+  display: flex;
+  flex-direction: row;
+}
 .col{
   display: flex;
   flex-direction: column;
